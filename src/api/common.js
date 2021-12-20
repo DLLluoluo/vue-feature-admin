@@ -7,3 +7,11 @@ export function uploadFile (query) {
     params: query
   })
 }
+
+export function getMemberList(params){
+  return request({
+    url:'/member/getMemberList',
+    method:'get',
+    params
+  })
+}
