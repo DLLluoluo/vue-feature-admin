@@ -20,6 +20,8 @@ import './utils/error-log' // error log
 
 import * as filters from './filters' // global filters
 
+import '@/plugins/toast/toast' //引入全局组件
+
 /**
  * If you don't want to use mock-server
  * you want to use MockJs for mock api
